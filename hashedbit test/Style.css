@@ -1,0 +1,12 @@
+
+
+
+.movie-container {
+    display: flex;
+}
+
+.movie-card {
+    width: 25%;
+    padding: 10px;
+    
+}

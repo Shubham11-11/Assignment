@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    
+    <title>Movie Ticket Booking</title>
+</head>
+<body>
+    
+    <div class="movie-container">
+        <div class="movie-card" onclick="goTOMovieDetails ">
+        <img src ="https://www.google.com/search?q=movies+released+in+december+2023&sca_esv=593269269&tbm=isch&sxsrf=AM9HkKnmFgrdLiBNe-7RPCZ1CP-wPWaWKg:1703338160223&source=lnms&sa=X&sqi=2&ved=2ahUKEwiiquOP1aWDAxWSwTgGHez-CUgQ_AUoAnoECAMQBA&biw=1163&bih=501&dpr=1.65#imgrc=EBcOdajNDBy7sM"  alt ="Movie1">
+        <h3> Animal</h3>
+        
+        </div>
+        <div class="movie-card" onclick="goTOMovieDetails ">
+            <img src="https://www.google.com/search?q=movies+released+in+december+2023&sca_esv=593269269&tbm=isch&sxsrf=AM9HkKnmFgrdLiBNe-7RPCZ1CP-wPWaWKg:1703338160223&source=lnms&sa=X&sqi=2&ved=2ahUKEwiiquOP1aWDAxWSwTgGHez-CUgQ_AUoAnoECAMQBA&biw=1163&bih=501&dpr=1.65#imgrc=JtnO_j5LTE6bIM"  alt =" Movie2">
+            <h3> Aquaman</h3>
+            
+        </div>
+        <div class="movie-card" onclick="goTOMovieDetails ">
+            <img src="https://www.google.com/search?q=movies+released+in+december+2023&sca_esv=593269269&tbm=isch&sxsrf=AM9HkKnmFgrdLiBNe-7RPCZ1CP-wPWaWKg:1703338160223&source=lnms&sa=X&sqi=2&ved=2ahUKEwiiquOP1aWDAxWSwTgGHez-CUgQ_AUoAnoECAMQBA&biw=1163&bih=501&dpr=1.65#imgrc=Q8ls1k3W1ci2AM"  alt =" Movie3">
+            <h3> Atal</h3>
+            
+        </div>
+        <div class="movie-card" onclick="goTOMovieDetails ">
+            <img src="https://www.google.com/search?q=movies+poster+released+in+december+2023&tbm=isch&ved=2ahUKEwj7pMmS1aWDAxWJq2MGHfVxB7MQ2-cCegQIABAA&oq=movies+poster+released+in+december+2023&gs_lcp=CgNpbWcQAzoHCAAQgAQQGFDPDFihHGC1HWgAcAB4AIAB8gGIAYkLkgEFMC40LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=tuCGZfvxBInXjuMP9eOdmAs&bih=501&biw=1163#imgrc=TpOpiaUZuAH7AM"  alt =" Movie4">
+            <h3> Salar</h3>
+            
+        </div>
+
+    </div>
+
+    <div id="booking-form">
+        <h2> Booking Form</h2>
+        <form onsubmit="submitForm(); return True;">
+            <label for="name">Name:-</label>
+            <input type="text" id="name">
+
+            <label for="contact">ContactDetails:-</label>
+            <input type="text" id="contact">
+
+            <label for="email">Email:-</label>
+            <input type="text" id="email">
+
+            <input type="submit" value="submit">
+        
+        
+        </form>
+
+    </div>
+    <div id="booking-confirmation">
+        <h2> Booking Confirmation</h2>
+        <p id="booking-id"></p>
+        <p id="booking-details"></p>
+
+
+
+    </div>
+
+    
+    <script src=" ./script.js"></script>
+</body>
+</html>
